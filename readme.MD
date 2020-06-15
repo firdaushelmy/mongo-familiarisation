@@ -3,6 +3,12 @@ This is my list of notes for MongoDB
 ```
 ### 14 June 2020
 
+
+### start mongo server with
+mongod --dbpath /usr/local/var/mongodb
+
+### steps after server is up.
+### open another terminal and enter in cli
 mongo
 show dbs
 use shopDB
@@ -56,4 +62,11 @@ db.products.insertMany([{
 ]
 }])
 
+```
+
+```
+### 15 june 2020
+### if forgot to close mongod before terminal termination.
+
+sudo pkill -f mongod
 ```
